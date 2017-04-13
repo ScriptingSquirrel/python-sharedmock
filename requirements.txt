@@ -1,6 +1,8 @@
 # for testing:
-coveralls
-prospector
-pylint
-pytest
-pytest-cov
+coveralls==1.1
+prospector==0.12.4
+# NB: pylint 1.7.0 causes ImportError on Travis CI, see:
+# https://s3.amazonaws.com/archive.travis-ci.org/jobs/221800337/log.txt
+pylint==1.6.5
+pytest==3.0.5
+pytest-cov==2.4.0
