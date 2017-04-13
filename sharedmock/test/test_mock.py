@@ -3,7 +3,7 @@ from unittest.mock import call
 
 import multiprocessing as mp
 from sharedmock.asserters import assert_calls_equal
-from sharedmock.sharedmock import SharedMock
+from sharedmock.mock import SharedMock
 
 
 def get_mock_return_value(result_queue, mock):
