@@ -1,4 +1,5 @@
 test_cmd = py.test
+coverage_cmd = coverage combine && coverage report
 lint_cmd = prospector
 
 install:
@@ -11,7 +12,13 @@ lint:
 
 test:
 	$(info * Running tests w/ coverage measurement...)
-	$(test_cmd) --cov=.
+	# unfortunately pytest-cov doesn't measure subprocesses with
+	# multiprocessing_scheduler, pytest-cov v2.4.0, coverage v4.2:
+	#$(PYTEST) --cov=. --cov-report=term
+	# using this workaround instead,
+	# which goes through a sitecustomize.py file inside $(PWD)/enable_coverage/:
+	export PYTHONPATH=$(PWD)/enable_coverage:$(PYTHONPATH) && $(test_cmd)
+	$(coverage_cmd)
 
 testnocov:
 	$(info * Running tests w/o coverage measurement...)

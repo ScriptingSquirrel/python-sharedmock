@@ -1,7 +1,7 @@
 # Config file to control coverage.py
 
 [run]
-# Include subprocesses in coverage measurement
+# The tested code uses multiprocessing and does concurrent execution
 concurrency = multiprocessing
 parallel = True
 
