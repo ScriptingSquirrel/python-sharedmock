@@ -1,7 +1,7 @@
 from multiprocessing.managers import BaseManager, BaseProxy
 from unittest import mock
 
-from asserters import assert_calls_equal, assert_calls_equal_unsorted
+from sharedmock.asserters import assert_calls_equal, assert_calls_equal_unsorted
 
 
 class SharedMockObj:

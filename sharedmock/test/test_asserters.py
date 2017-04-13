@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import call
 
-from asserters import assert_calls_equal
+from sharedmock.asserters import assert_calls_equal
 
 
 class Test_assert_calls_equal(unittest.TestCase):

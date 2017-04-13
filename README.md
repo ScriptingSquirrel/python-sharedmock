@@ -2,4 +2,4 @@
 [![Coverage Status](https://coveralls.io/repos/github/elritsch/python-sharedmock/badge.svg?branch=master)](https://coveralls.io/github/elritsch/python-sharedmock?branch=master)
 
 # python-sharedmock
-A multiprocessing friendly Python mock object
+A multiprocessing-friendly Python mock object
