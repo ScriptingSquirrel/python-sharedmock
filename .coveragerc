@@ -1,0 +1,28 @@
+# Config file to control coverage.py
+
+[run]
+# Include subprocesses in coverage measurement
+concurrency = multiprocessing
+parallel = True
+
+# Enable branch coverage
+branch = True
+
+
+[report]
+# Require 100% coverage for successful run
+fail_under = 100
+
+# Show uncovered lines and branches in textual report
+show_missing = True
+
+# Regexes to exclude matching code lines from consideration
+exclude_lines =
+    # Have to re-enable the standard pragma:
+    pragma: no cover
+
+    # Don't complain if tests don't hit their own defensive assertion code:
+    raise AssertionError
+
+    # Don't complain if non-runnable code isn't run:
+    if __name__ == .__main__.:
