@@ -16,6 +16,13 @@ fail_under = 100
 # Show uncovered lines and branches in textual report
 show_missing = True
 
+# Don't consider source files..
+omit =
+    # from the system Python installation
+    /usr/*
+    # from the Python virtualenv
+    */virtualenv/*
+
 # Regexes to exclude matching code lines from consideration
 exclude_lines =
     # Have to re-enable the standard pragma:
