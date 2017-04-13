@@ -1,0 +1,6 @@
+# for testing:
+coveralls
+prospector
+pylint
+pytest
+pytest-cov
