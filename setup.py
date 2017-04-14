@@ -41,6 +41,10 @@ setup(
     packages=find_packages(exclude=['examples', '*.test']),
     install_requires=[],
     extras_require={
-        'test': ['coveralls==1.1', 'prospector==0.12.4', 'pylint==1.6.5', 'pytest==3.0.5', 'pytest-cov==2.4.0'],
+        'test': ['coveralls==1.1',
+                 'prospector==0.12.4',
+                 'pylint==1.6.5',
+                 'pytest==3.0.5',
+                 'pytest-cov==2.4.0'],
     },
 )
