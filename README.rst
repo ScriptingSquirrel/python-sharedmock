@@ -1,5 +1,4 @@
-| |Build Status|
-| |Coverage Status|
+|Build Status| |Coverage Status| |Documentation Status|
 
 Python ``SharedMock``
 =====================
@@ -46,3 +45,5 @@ code:
    :target: https://travis-ci.org/elritsch/python-sharedmock
 .. |Coverage Status| image:: https://coveralls.io/repos/github/elritsch/python-sharedmock/badge.svg?branch=master
    :target: https://coveralls.io/github/elritsch/python-sharedmock?branch=master
+.. |Documentation Status| image:: https://readthedocs.org/projects/python-sharedmock/badge/?version=latest
+   :target: http://python-sharedmock.readthedocs.io/en/latest/?badge=latest
