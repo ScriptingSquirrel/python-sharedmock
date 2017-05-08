@@ -1,7 +1,14 @@
-|Build Status| |Coverage Status| |Documentation Status|
-
 Python ``SharedMock``
 =====================
+
+|Build Status| |Coverage Status| |Docs Status|
+
+.. |Build Status| image:: https://travis-ci.org/elritsch/python-sharedmock.svg?branch=master
+   :target: https://travis-ci.org/elritsch/python-sharedmock
+.. |Coverage Status| image:: https://coveralls.io/repos/github/elritsch/python-sharedmock/badge.svg?branch=master
+   :target: https://coveralls.io/github/elritsch/python-sharedmock?branch=master
+.. |Docs Status| image:: https://readthedocs.org/projects/python-sharedmock/badge/?version=latest
+   :target: http://python-sharedmock.readthedocs.io/en/latest/?badge=latest
 
 A multiprocessing-friendly Python mock object
 
@@ -40,10 +47,9 @@ code:
     E               Expected: [call('fancyArg')]
     E               Actual: []
 
+Documentation
+-------------
 
-.. |Build Status| image:: https://travis-ci.org/elritsch/python-sharedmock.svg?branch=master
-   :target: https://travis-ci.org/elritsch/python-sharedmock
-.. |Coverage Status| image:: https://coveralls.io/repos/github/elritsch/python-sharedmock/badge.svg?branch=master
-   :target: https://coveralls.io/github/elritsch/python-sharedmock?branch=master
-.. |Documentation Status| image:: https://readthedocs.org/projects/python-sharedmock/badge/?version=latest
-   :target: http://python-sharedmock.readthedocs.io/en/latest/?badge=latest
+Documentation can be found on `Read the Docs`_.
+
+.. _Read the Docs: https://python-sharedmock.readthedocs.io
