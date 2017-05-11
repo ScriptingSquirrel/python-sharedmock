@@ -11,7 +11,7 @@ def assert_calls_equal(expected, actual):
 
 
 def raise_calls_differ_error(expected, actual):
-    """"
+    """
     Raise an AssertionError with pretty print format for the given expected
     and actual mock calls in order to ensure consistent print style for better
     readability.
