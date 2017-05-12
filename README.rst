@@ -47,6 +47,14 @@ code:
     E               Expected: [call('fancyArg')]
     E               Actual: []
 
+Source
+------
+
+The entire source code is `in this GitHub repository`__.
+
+.. _GitHub: https://github.com/elritsch/python-sharedmock
+__ GitHub_
+
 Documentation
 -------------
 
