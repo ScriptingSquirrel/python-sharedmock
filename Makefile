@@ -2,7 +2,11 @@ test_cmd = py.test
 coverage_cmd = coverage combine && coverage report
 lint_cmd = prospector
 
-install:
+make install: install-requirements
+	$(info * Installing Python package...)
+	python3 setup.py install
+
+install-requirements:
 	$(info * Installing Python requirements...)
 	pip3 install -r requirements.txt
 
