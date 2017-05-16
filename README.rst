@@ -50,10 +50,9 @@ code:
 Source
 ------
 
-The entire source code is `in this GitHub repository`__.
+The entire source code is available on `GitHub`_.
 
 .. _GitHub: https://github.com/elritsch/python-sharedmock
-__ GitHub_
 
 Documentation
 -------------
