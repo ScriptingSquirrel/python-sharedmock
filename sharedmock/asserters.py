@@ -18,8 +18,10 @@ def raise_calls_differ_error(expected, actual):
     """
     expected_str = pformat(expected)
     actual_str = pformat(actual)
-    msg = '\nMock calls differ!\nExpected calls:\n%s\nActual calls:\n%s' % (expected_str,
-                                                                            actual_str)
+    msg = '\nMock calls differ!\nExpected calls:\n{}\nActual calls:\n{}'.format(
+        expected_str,
+        actual_str
+    )
     raise AssertionError(msg)
 
 
