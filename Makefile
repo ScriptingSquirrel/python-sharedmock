@@ -1,4 +1,4 @@
-test_cmd = py.test
+test_cmd = pytest
 coverage_cmd = coverage combine && coverage report
 lint_cmd = prospector
 
